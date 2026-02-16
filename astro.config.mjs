@@ -5,10 +5,14 @@ import starlightThemeFlexoki from "starlight-theme-flexoki";
 
 // https://astro.build/config
 export default defineConfig({
+  site: "https://m68k.dev",
   integrations: [
     starlight({
       plugins: [starlightThemeFlexoki({ accentColor: "blue" })],
       title: "M68k Reference",
+      editLink: {
+        baseUrl: "https://github.com/markjamesm/m68k-reference/tree/main",
+      },
       logo: {
         light: "./src/assets/light-logo.svg",
         dark: "./src/assets/dark-logo.svg",
