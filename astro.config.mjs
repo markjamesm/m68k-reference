@@ -8,8 +8,8 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			plugins: [starlightThemeFlexoki({accentColor: "blue",})],
-			title: 'My Docs',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			title: 'M68k Reference',
+			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/markjamesm/m68k-reference' }],
 			sidebar: [
 				{
 					label: 'Guides',
