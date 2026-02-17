@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./src/assets/gray-logo.svg" alt="M68k Reference Project logo" width="200" />
+  <img src="./src/assets/gray-logo.svg" alt="M68k Reference Project logo" width="150" />
 </p>
 
 <h1 align="center">M68k Reference Project</h1>
