@@ -26,15 +26,18 @@ export default defineConfig({
       ],
       sidebar: [
         {
-          label: "Guides",
+          label: "Reference",
           items: [
             // Each item here is one entry in the navigation menu.
-            { label: "Example Guide", slug: "guides/example" },
+            { label: "680x0 Series", slug: "reference/68000-series" },
           ],
         },
         {
-          label: "Reference",
-          autogenerate: { directory: "reference" },
+          label: "68000",
+          items: [
+            // Each item here is one entry in the navigation menu.
+            { label: "Addressing Modes", slug: "68000/addressing-modes" },
+          ],
         },
       ],
     }),
