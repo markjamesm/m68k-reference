@@ -8,7 +8,7 @@
   <a href="LICENSE.md"><img src="https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg" alt="License: CC-BY-SA-4.0" /></a>
 </p>
 
-Website of the [M68k Reference Project](https://m68k.dev), a centralized repository of documentation relating to the Motorola 680x0 family of microprocessors.
+Website of the [M68k Reference Project](https://m68k.dev), a collaborative, centralized repository of documentation relating to the Motorola 680x0 family of microprocessors.
 
 ## Roadmap
 
