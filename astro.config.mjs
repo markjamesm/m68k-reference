@@ -14,8 +14,8 @@ export default defineConfig({
         baseUrl: "https://github.com/markjamesm/m68k-reference/tree/main",
       },
       logo: {
-        light: "./src/assets/light-logo.svg",
-        dark: "./src/assets/dark-logo.svg",
+        light: "./src/assets/gray-logo.svg",
+        dark: "./src/assets/gray-logo.svg",
       },
       social: [
         {
