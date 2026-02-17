@@ -1,11 +1,14 @@
-# M68k Reference Project
-[![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+<p align="center">
+  <img src="./src/assets/gray-logo.svg" alt="M68k Reference Project logo" width="200" />
+</p>
 
-<div style="text-align: center;">
-    <img src="./src/assets/gray-logo.svg" justify="center" width="150" height="150">
-</div>
+<h1 align="center">M68k Reference Project</h1>
 
-The website for the [M68k Reference Project](https://m68k.dev), a centralized repository of documentation relating to the Motorola 680x0 family of microprocessors.
+<p align="center">
+  <a href="LICENSE.md"><img src="https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg" alt="License: CC-BY-SA-4.0" /></a>
+</p>
+
+Website of the [M68k Reference Project](https://m68k.dev), a centralized repository of documentation relating to the Motorola 680x0 family of microprocessors.
 
 ## Roadmap
 
