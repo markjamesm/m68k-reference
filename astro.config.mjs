@@ -25,17 +25,23 @@ export default defineConfig({
         },
       ],
       sidebar: [
-        {
-          label: "Reference",
+		        {
+          label: "Start Here",
           items: [
             // Each item here is one entry in the navigation menu.
-            { label: "680x0 Series", slug: "reference/68000-series" },
+            { label: "Getting Started", slug: "getting-started" }
+          ],
+        },
+		        {
+          label: "Reference",
+          items: [
+			{ label: "Overview", slug: "reference/overview" },
+			{ label: "Manuals", slug: "reference/manuals" },
           ],
         },
         {
           label: "68000",
           items: [
-            // Each item here is one entry in the navigation menu.
             { label: "Addressing Modes", slug: "68000/addressing-modes" },
           ],
         },

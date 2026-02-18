@@ -1,14 +1,14 @@
 ---
 title: M68k Reference
-description: A collaborative, centralized repository of documentation relating to the Motorola 680x0 family of microprocessors.
+description: A collaborative, centralized repository of documentation for the Motorola 68000 series of microprocessors.
 template: splash # Remove or comment out this line to display the site sidebar on this page.
 hero:
-  tagline: A collaborative, centralized repository of documentation relating to the Motorola 680x0 family of microprocessors.
+  tagline: A collaborative, centralized repository of documentation for the Motorola 68000 series of microprocessors.
   image:
     file: ../../assets/gray-logo.svg
   actions:
     - text: Browse documentation
-      link: /reference/68000-series
+      link: /reference/overview
       icon: right-arrow
     - text: Contribute
       link: https://github.com/markjamesm/m68k-reference
@@ -16,23 +16,28 @@ hero:
       variant: minimal
 ---
 
-import { Aside, Card, CardGrid } from '@astrojs/starlight/components';
+import { Aside, LinkCard, CardGrid } from '@astrojs/starlight/components';
 
 <Aside>Note: The project is currently in a pre-alpha state and is undergoing active development.</Aside>
 
 ## Quick Reference
 
 <CardGrid>
-	<Card title="680x0 Series" icon="open-book">
-		The Motorola 680x0 series (also known as the 68000 series) is a series of big-endian complex instruction set computer (CISC) microprocessors first introduced in 1979 with the launch of the Motorola 68000. 
-		
-		[Learn more](/reference/68000-series)
-	</Card>
-	<Card title="Motorola 68000 Addressing Modes" icon="document">
-		Addressing Modes of the Motorola 68000 microprocessor.
-
-		[Read more](/68000/addressing-modes)
-	</Card>
+	<LinkCard
+  		title="Getting Started"
+  		href="/getting-started"
+  		description="Learn how the documentation is structured and how you can make contributions."
+	/>
+	<LinkCard
+  		title="Overview"
+  		href="/reference/overview"
+  		description="A technical overview of the Motorola 68000 microprocessor family."
+	/>
+	<LinkCard
+  		title="Reference Manuals"
+  		href="/reference/manuals"
+  		description="Consult the list of available reference manuals, in PDF format."
+	/>
 </CardGrid>
 
 *This work is licensed under a
