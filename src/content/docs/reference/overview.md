@@ -7,7 +7,7 @@ The Motorola 68000 series is a family of big-endian CISC microprocessors first i
 
 ## Family Members
 
-### Generation one
+### First Generation
 
 - 68000
 - 68EC000
@@ -17,20 +17,20 @@ The Motorola 68000 series is a family of big-endian CISC microprocessors first i
 - 68010
 - 68012
 
-### Generation two (internally fully 32-bit)
+### Second Generation (internally fully 32-bit)
 
 - 68020
 - 68EC020
 - 68030
 - 68EC030
 
-### Generation three (pipelined)
+### Third Generation (pipelined)
 
 - 68040
 - 68EC040
 - 68LC040
 
-### Generation four (superscalar)
+### Fourth Generation (superscalar)
 
 - 68060
 - 68EC060
