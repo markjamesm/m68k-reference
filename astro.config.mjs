@@ -10,6 +10,10 @@ export default defineConfig({
     starlight({
       plugins: [starlightThemeFlexoki({ accentColor: "blue" })],
       title: "M68k Reference",
+      components: {
+        // Override the default `Footer` component.
+        Footer: "./src/components/Footer.astro",
+      },
       editLink: {
         baseUrl: "https://github.com/markjamesm/m68k-reference/tree/main",
       },
@@ -25,18 +29,18 @@ export default defineConfig({
         },
       ],
       sidebar: [
-		        {
+        {
           label: "Start Here",
           items: [
             // Each item here is one entry in the navigation menu.
-            { label: "Getting Started", slug: "getting-started" }
+            { label: "Getting Started", slug: "getting-started" },
           ],
         },
-		        {
+        {
           label: "Reference",
           items: [
-			{ label: "Overview", slug: "reference/overview" },
-			{ label: "Manuals", slug: "reference/manuals" },
+            { label: "Overview", slug: "reference/overview" },
+            { label: "Manuals", slug: "reference/manuals" },
           ],
         },
         {
