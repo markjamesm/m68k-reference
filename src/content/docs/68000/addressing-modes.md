@@ -3,9 +3,7 @@ title: Addressing Modes
 description: Addressing Modes of the Motorola 68000 family of microprocessors.
 ---
 
-The original Motorola 68000 has 14 addressing modes [^1]. Later models introduced additional addressing modes but are all backwards compatible with the original 68000. 
-
-If the 68000 encounters instructions from 
+The original Motorola 68000 has 14 addressing modes [^1].
 
 ## Effective Addressing Modes
 
